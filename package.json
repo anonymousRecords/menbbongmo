@@ -1,7 +1,12 @@
 {
-  "name": "menbbongmo",
-  "packageManager": "yarn@4.6.0",
+  "name": "@menbbongmo/study",
+  "workspaces": [
+    "app"
+  ],
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
-  }
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "yarn@4.6.0"
 }
